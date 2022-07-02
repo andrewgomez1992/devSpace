@@ -12,7 +12,7 @@
     --color-black: hsl(252, 30%, 10%);
 
     --border-radius: 2rem;
-    --card-border-radius: 1rem;
+    --card-border-radius: .7rem;
     --btn-padding: 0.6rem 2rem;
     --search-padding: 0.6rem 1rem;
     --card-padding: 1rem;
@@ -297,6 +297,7 @@ main .container .left .profile {
     width: 100%;
     position: relative;
     overflow: hidden;
+    border: 2px solid rgb(72, 72, 229)
 }
 
 .middle .stories .story::before {
