@@ -137,6 +137,7 @@ nav .create {
 main {
     position: relative;
     top: 5.4rem;
+
 }
 
 main .container {
@@ -152,6 +153,8 @@ main .container .left {
     height: max-content;
     position: sticky;
     top: var(--sticky-top-left);
+    /* box-shadow: hsl(var(--primary-color-hue), 75%, 58%) 0px 3px 8px; */
+    border-radius: 10px;
 }
 
 main .container .left .profile {
@@ -398,6 +401,9 @@ main .container .left .profile {
     border-radius: var(--card-border-radius);
     overflow: hidden;
     margin: 0.7rem 0;
+    border: 2px solid hsl(var(--primary-color-hue), 75%, 58%);
+    ;
+
 }
 
 .middle .feed .action-buttons {
